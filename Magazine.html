@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="image/logo-1.png">
+    <title>Book Store</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" type="text/css" href="/css/magazine.css" />
+    <script
+      src="https://kit.fontawesome.com/6787d61744.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+    <!-- include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- reference our custom javascript file that contains the request call and response processing logic -->
+    <script src="/js/fetchMagazines.js"></script>
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <div class="header-1">
+        <a href="#" class="logo">
+          <i class="fas fa-book"></i> World of Words
+        </a>
+
+        <div class="icons">
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </div>
+
+      <div class="header-2">
+        <nav class="navbar">
+            <!-- <ul class="top-menu"> -->
+                <a href="index.html">Home</a>
+                <a href="Books.html">Books</a>
+                <a href="Magazine.html">Magazines</a>
+                <a href="Subscribe.html">Subscription</a>
+            <!-- </ul> -->
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <div class="bottom-navbar-icons">
+    <a href="index.html"><img src="/image/home-icon.png" style="height: 60px; width: 60px; margin: 20px;"></a>
+    <a href="Books.html"><img src="/image/book-icon.png" style="height: 60px; width: 60px; margin: 20px;"></a>
+    <a href="Magazine.html"><img src="/image/news-icon.png" style="height: 60px; width: 60px; margin: 20px;"></a>
+    <a href="Subscribe.html"><img src="/image/money-icon.png" style="height: 60px; width: 60px; margin: 20px;"></a>
+</div>
+</nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+
+      <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input
+          type="email"
+          name=""
+          class="box"
+          placeholder="enter your email"
+          id=""
+        />
+        <span>password</span>
+        <input
+          type="password"
+          name=""
+          class="box"
+          placeholder="enter your password"
+          id=""
+        />
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn" />
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+      </form>
+    </div>
+    <div>
+      <div class="quote">
+      <blockquote class="q-card q-card-color-1">
+        <div class="content">Discover new worlds with each turn of the page,<br>Explore Millions of Magazines at <span style="color:  greenyellow;">World of Words</span>..</div>
+        <!-- <div class='author'>Search From Millions of books</div> -->
+      </blockquote>
+      </div>
+      <form id="inputForm">
+        <img src="https://img.icons8.com/material/24/000000/search--v1.png" class="search-ico"/>
+        <input
+          id="searchInput"
+          type="text"
+          required
+          placeholder="Search for any Magazines..."
+        />
+        <button type="submit" id="magazineInputForm">Submit</button>
+      </form>
+      <div id="resultContainer">
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_Mqvhysxply.json" background="transparent"  speed="1"  style="width: 300px; height: 300px; display: flex; align-items: center; fill: #27ae60;" loop autoplay></lottie-player>
+      </div>
+    </div>
+  </body>
+  <!-- footer section starts  -->
+
+  <section class="footer">
+    <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit">&copy; Created By Team <span>W😯W</span></div>
+  </section>
+
+  <!-- footer section ends -->
+</html>

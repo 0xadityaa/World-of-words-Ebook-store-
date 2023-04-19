@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+
+    <link rel="icon" type="image/x-icon" href="image/logo-1.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/6787d61744.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> World of Words </a>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <!-- <ul class="top-menu"> -->
+                <a href="index.html">Home</a>
+                <a href="Books.html">Books</a>
+                <a href="Magazine.html">Magazines</a>
+                <a href="Subscribe.html">Subscription</a>
+            <!-- </ul> -->
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <div class="bottom-navbar-icons">
+    <a href="index.html"><img src="/image/home-icon.png" style="height: 60px; width: 60px; margin: 20px;"></a>
+    <a href="Books.html"><img src="/image/book-icon.png" style="height: 60px; width: 60px; margin: 20px;"></a>
+    <a href="Magazine.html"><img src="/image/news-icon.png" style="height: 60px; width: 60px; margin: 20px;"></a>
+    <a href="Subscribe.html"><img src="/image/money-icon.png" style="height: 60px; width: 60px; margin: 20px;"></a>
+</div>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Open Your Mind To Endless Possibilities</h3>
+            <p>Our online bookstore is a one-stop destination for all book lovers, where you can easily find and purchase the latest releases, classic literature, and niche genres. With just a few clicks, you can dive into a vast world of stories, ideas, and knowledge.</p>
+            <a href="#featured" class="btn">Explore Now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-6.png" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ends  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <!-- <i class="fa-solid fa-books fa-fade"></i> -->
+        <i class="fa fa-book" style="font-size:35px;color:#27ae60"></i>
+        <div class="content">
+            <h3>Wide range</h3>
+            <p>1 million+ books</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100% secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>Accessible</h3>
+            <p>Listen to thousands Audiobooks</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured books</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/b1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Imperfections Of Memory</h2>
+                    <h3 style="color: #27ae60;">featured books</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/b2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Mind Of A Leader</h2>
+                    <h3 style="color: #27ae60;">featured books</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/b3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Lost In Space</h2>
+                    <h3 style="color: #27ae60;">featured books</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/b4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Redeeming Love</h2>
+                    <h3 style="color: #27ae60;">featured books</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/b5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Curse of Shadow Thrones</h2>
+                    <h3 style="color: #27ae60;">featured books</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/b6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Scar Tissue</h2>
+                    <h3 style="color: #27ae60;">featured books</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/b7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Health Book</h2>
+                    <h3 style="color: #27ae60;">featured books</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/b8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Mandela Martin Meredith</h2>
+                    <h3 style="color: #27ae60;">featured books</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/b9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>I Can Make Promise</h2>
+                    <h3 style="color: #27ae60;">featured books</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/b10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>The Art Of A.I</h2>
+                    <h3 style="color: #27ae60;">featured books</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter" id="reviews">
+
+    <form action="">
+        <h3>Subscribe for latest updates</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- Magazine Section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>Top Magazines</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/magazine-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fortune Magazine</h3>
+                    <div class="price">New Arrivals</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/magazine-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>CEO's Handbook</h3>
+                    <div class="price">New Arrivals</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/magazine-3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Science Magazine</h3>
+                    <div class="price">New Arrivals</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/magazine-4.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Lost In Space</h3>
+                    <div class="price">New Arrivals</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/magazine-5.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>India Today</h3>
+                    <div class="price">New Arrivals</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/magazine-6.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Science Future</h3>
+                    <div class="price">New Arrivals</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/magazine-7.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Infinite Magazine</h3>
+                    <div class="price">New Arrivals</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/magazine-8.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>History Magazine</h3>
+                    <div class="price">New Arrivals</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/magazine-9.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Magic Land Magazine</h3>
+                    <div class="price">New Arrivals</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/magazine-10.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Child's Magazine</h3>
+                    <div class="price">New Arrivals</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- arrivals section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>deal of the day</h3>
+        <h1>upto 50% off</h1>
+        <p>Good news for you, if you buy any book on Saturday and Sunday you will get 50% off on online Subscription.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+    <div class="image">
+        <img src="image/deal-img.jpg" alt="">
+    </div>
+
+</section>
+<!-- Deals sections end -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit">&copy; Created By Team <span>W😯W</span></div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
